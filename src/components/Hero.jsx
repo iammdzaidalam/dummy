@@ -33,6 +33,7 @@ const Hero = () => {
             className='mt-8 w-full h-auto object-cover'
             style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }}
             onLoad={(e) => e.currentTarget.style.opacity = 1}
+            loading='eager'
           />
           <div className='absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent' />
         </div>
