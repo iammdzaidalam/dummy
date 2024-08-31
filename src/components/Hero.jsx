@@ -20,7 +20,7 @@ const Hero = () => {
             target='_blank'
             rel='noopener noreferrer'
             download
-            className='flex items-center rounded-xl bg-lime-300 p-2 px-3 font-sans font-medium text-black hover:bg-lime-400'
+            className='flex items-center rounded-xl bg-lime-300 p-2 px-3 font-sans font-medium text-black hover:bg-lime-400' 
           >
             <span>Download CV</span>
             <LuImport className='ml-2' />
@@ -30,7 +30,7 @@ const Hero = () => {
           <img
             src={benson}
             alt='Zaid Alam'
-            className='mt-8 h-96 w-full object-cover'
+            className='mt-8 h-96 max-h-96 w-full object-cover'
           />
           <div className='absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent' />
         </div>
