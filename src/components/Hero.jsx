@@ -31,7 +31,6 @@ const Hero = () => {
             src={benson}
             alt='Zaid Alam'
             className='mt-8 w-full h-auto object-cover'
-            loading='lazy'
             style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }}
             onLoad={(e) => e.currentTarget.style.opacity = 1}
           />
