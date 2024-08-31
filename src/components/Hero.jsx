@@ -30,6 +30,7 @@ const Hero = () => {
           <img
             src={benson}
             alt='Zaid Alam'
+            style={{objectFit: 'cover'}}
             className='mt-8 h-96 max-h-96 w-full object-cover'
           />
           <div className='absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent' />
