@@ -31,7 +31,6 @@ const Hero = () => {
             src={benson}
             alt='Zaid Alam'
             className='mt-8 h-96 w-full object-cover'
-            loading='lazy'
           />
           <div className='absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent' />
         </div>
